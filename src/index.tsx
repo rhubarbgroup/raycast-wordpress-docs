@@ -25,7 +25,7 @@ export default function Command() {
           ))}
         </List.Section>
       ) : (
-        <List.EmptyView title={"Type to search"} icon={{ source: "command-icon.png" }} />
+        <List.EmptyView title={"Type to search"} />
       )}
     </List>
   );
